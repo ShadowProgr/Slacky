@@ -2,7 +2,7 @@ import { BrowserWindow, shell, Session, OnBeforeSendHeadersListenerDetails, Befo
 import * as path from 'path'
 import { SlackyEvent } from './events'
 
-const defaultUserAgent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'
+const defaultUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'
 
 const enhanceSession = (session: Session) => {
   session.setUserAgent(defaultUserAgent)
